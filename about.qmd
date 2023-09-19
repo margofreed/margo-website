@@ -1,0 +1,14 @@
+---
+title: "About"
+title-block-banner-color: "Gold"
+title-block-banner: true
+---
+
+Hi! My name is Margo. 
+I'm an Ohio native who balances a healthy lifestyle a full-time job, illustration freelance work, traveling, and more. The idea of meal preparation and eating healthier sparked in the middle of the pandemic when many of us were stressed about the unknowns. I will admit I did a lot of stress eating and barely exercised. Around early 2022, I decided to change that following the WW simple diet plan of everything in moderation. From there, I became inspired by other meal preparation and bento-making resources online and now spend every week crafting a healthy prepared meal to take on whatever the weekly grind may be. 
+(elaborate on description)
+
+
+```{r}
+1 + 1
+```

@@ -1,0 +1,14 @@
+---
+title: "Weekly Meal Prep"
+subtitle: "These are my ongoing prepared meals to continuously eat healthy"
+date: 2023-09-15
+author: 
+  - "Margo Freed"
+  - "Fitness Enthusiast"
+  - "Freelance Artist"
+  - "Full-Time IT Pro"
+date-modified: 2023-09-15
+title-block-banner-color: "Gold"
+title-block-banner: true
+editor: visual
+---

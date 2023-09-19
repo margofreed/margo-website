@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Busy Balanced Life"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+        icon: house
+        
+      - href: about.qmd
+        text: About Me
+        icon: file-person
+      
+      - href: mealprep.qmd
+        text: Meal Prep
+        icon: basket2-fill
+        
+format:
+  html:
+    theme: united
+    css: styles.css
+    toc: true
+
+
+
