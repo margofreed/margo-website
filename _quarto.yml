@@ -20,6 +20,7 @@ website:
       - href: mealprep.qmd
         text: Meal Prep
         icon: basket2-fill
+    
     right:
       - href: "https://margofreed.github.io/"
         icon: github
