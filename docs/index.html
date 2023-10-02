@@ -141,11 +141,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </i> 
  <span class="menu-text">About Me</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./mealprep.html" rel="" target=""><i class="bi bi-basket2-fill" role="img">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-meal-preps" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+      <i class="bi bi-basket2-fill" role="img">
 </i> 
- <span class="menu-text">Meal Prep</span></a>
+ <span class="menu-text">Meal Preps</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-meal-preps">    
+        <li>
+    <a class="dropdown-item" href="./pages/breakfast.html" rel="" target="">
+ <span class="dropdown-text">Breakfast Options</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./mealprep.html" rel="" target="">
+ <span class="dropdown-text">Lunches</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -200,7 +212,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

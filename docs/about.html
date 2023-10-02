@@ -67,7 +67,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -114,7 +113,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -141,13 +140,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </i> 
  <span class="menu-text">About Me</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./mealprep.html" rel="" target=""><i class="bi bi-basket2-fill" role="img">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-meal-preps" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+      <i class="bi bi-basket2-fill" role="img">
 </i> 
- <span class="menu-text">Meal Prep</span></a>
+ <span class="menu-text">Meal Preps</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-meal-preps">    
+        <li>
+    <a class="dropdown-item" href="./pages/breakfast.html" rel="" target="">
+ <span class="dropdown-text">Breakfast Options</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./mealprep.html" rel="" target="">
+ <span class="dropdown-text">Lunches</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/margofreed/margofreed.github.io" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
+            <div class="quarto-navbar-tools">
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -160,28 +178,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <h1 class="title">About</h1>
                       </div>
   </div>
-    
-  
   <div class="quarto-title-meta">
-
-      
-    
-      
     </div>
-    
-  
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="Profile2023.png" class="about-image
+  rounded " style="width: 20em;">
 
-
-
-
+  </div>
+  <div class="about-contents"><main class="content quarto-banner-title-block" id="quarto-document-content">
 <p>Hi! My name is Margo. I’m an Ohio native who balances a healthy lifestyle a full-time job, illustration freelance work, traveling, and more. The idea of meal preparation and eating healthier sparked in the middle of the pandemic when many of us were stressed about the unknowns. I will admit I did a lot of stress eating and barely exercised. Around early 2022, I decided to change that following the WW simple diet plan of everything in moderation. From there, I became inspired by other meal preparation and bento-making resources online and now spend every week crafting a healthy prepared meal to take on whatever the weekly grind may be. (elaborate on description)</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -191,8 +201,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 
 
-
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -213,13 +224,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -430,4 +434,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-</body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/margofreed/margofreed.github.io/edit/main/about.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/margofreed/margofreed.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></div></div></footer></body></html>
