@@ -1,0 +1,117 @@
+---
+title: "Website_06_Practice"
+author: "Margo"
+editor: visual
+bibliography: references.bib
+---
+
+**Hello World**
+
+*This is Margo's practice file where she messes with all the visual features in R Studio*
+
+[This is a nice break from meal prepping]{.underline}
+
+<p>Today has been a pretty slow day at work. I was able to do my laundry in between tasks and meetings. There are many perks to working from home, and being able to multi-task a little is one of them.</p>
+
+[House Upkeep:]{.underline}
+
+-   ~~Shopvac the basement~~
+
+-   ~~Spray essential oil bug repellent~~
+
+-   ~~Catch up on laundry~~
+
+-   ~~Clean the kitchen~~
+
+-   Vacuum the living room
+
+[Favorite Autumn Recipes:]{.underline}
+
+1.  Pumpkin Smoothies
+
+2.  Butternut Squash Tacos
+
+3.  Apple Pie
+
+4.  Turkey Breast with Gravy
+
+5.  Roasted Fall Veggies
+
+Taco^2^ \> Taco
+
+I'm not sure on great ways to use subscript~,\ but\ here\ we\ go~
+
+[Woah Razor... no cap these are small caps]{.smallcaps}
+
+[Fall Checklist:]{.underline}
+
+-   [ ] Ledges
+
+-   [x] Blue Hen Falls
+
+-   [ ] Hocking Hills
+
+-   [x] Starbucks Drinks
+
+-   [x] Thanksgiving Dinner
+
+[Favorite Quote:]{.underline}
+
+> "If you really want to do something, you'll find a way. If you don't, you'll find an excuse." - Jim Rohn
+
+------------------------------------------------------------------------
+
+# Let's Make Some Headers!
+
+## Bigger = More Important
+
+### Wheeeee!
+
+#### The weather is lovely today in Ohio... very sunny
+
+##### It's a nice 64 degrees Fahrenheit
+
+###### This is the smallest header and least important lol
+
+------------------------------------------------------------------------
+
+# New Section Time
+
+[The Insert Dropdown]{.underline}
+
+Let's add a link. These mines ain't gonna sweep themselves -\> [here!](https://minesweeperonline.com/)
+
+What country can you get the healthiest food options in? See this footnote -\> [^1]
+
+[^1]: 
+
+    You can eat healthy or unhealthy in any country of the world.
+
+Countries visited(so far) -\> 🇺🇸🇨🇦🇩🇪🇱🇺🇫🇷🇧🇪🇳🇱🇨🇭🇨🇿🇯🇵🇰🇷🇧🇷🏴󠁧󠁢󠁳󠁣󠁴󠁿
+
+------------------------------------------------------------------------
+
+This is the horizontal rule \^
+
+#### References
+
+[@m.horst2022]
+
+------------------------------------------------------------------------
+
+# Code & Tables
+
+``` R
+x <- 5
+x * 6
+```
+
+| Breakfasts                 | Lunches                   | Dinners          |
+|----------------------------|---------------------------|------------------|
+| Overnight Oats             | Korean Turkey Meatballs   | Air Fried Salmon |
+| Peanut Butter Banana Toast | Shrimp Veggie Sheet Pan   | Chicken Tacos    |
+| Pumpkin Smoothie Bowls     | Chicken Broccoli Stir Fry | Turkey Chili     |
+
+------------------------------------------------------------------------
+
+The end!\~

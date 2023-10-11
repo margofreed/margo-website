@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Busy Balanced Bento Life",
+    "objectID": "pages/breakfast.html",
+    "href": "pages/breakfast.html",
+    "title": "breakfast",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
+    "text": "Back to top"
   },
   {
     "objectID": "about.html",
@@ -14,11 +14,18 @@
     "text": "Hi! My name is Margo. I’m an Ohio native who balances a healthy lifestyle a full-time job, illustration freelance work, traveling, and more. The idea of meal preparation and eating healthier sparked in the middle of the pandemic when many of us were stressed about the unknowns. I will admit I did a lot of stress eating and barely exercised. Around early 2022, I decided to change that following the WW simple diet plan of everything in moderation. From there, I became inspired by other meal preparation and bento-making resources online and now spend every week crafting a healthy prepared meal to take on whatever the weekly grind may be. (elaborate on description)\n\n1 + 1\n\n[1] 2\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "pages/breakfast.html",
-    "href": "pages/breakfast.html",
-    "title": "breakfast",
+    "objectID": "web6_practice.html",
+    "href": "web6_practice.html",
+    "title": "Website_06_Practice",
     "section": "",
-    "text": "Back to top"
+    "text": "Hello World\nThis is Margo’s practice file where she messes with all the visual features in R Studio\nThis is a nice break from meal prepping\nToday has been a pretty slow day at work. I was able to do my laundry in between tasks and meetings. There are many perks to working from home, and being able to multi-task a little is one of them.\nHouse Upkeep:\nFavorite Autumn Recipes:\nTaco2 &gt; Taco\nI’m not sure on great ways to use subscript, but here we go\nWoah Razor… no cap these are small caps\nFall Checklist:\nFavorite Quote:"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Busy Balanced Bento Life",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "mealprep.html",
@@ -26,5 +33,19 @@
     "title": "Weekly Meal Prep",
     "section": "",
     "text": "Back to top"
+  },
+  {
+    "objectID": "web6_practice.html#bigger-more-important",
+    "href": "web6_practice.html#bigger-more-important",
+    "title": "Website_06_Practice",
+    "section": "1.1 Bigger = More Important",
+    "text": "1.1 Bigger = More Important\n\n1.1.1 Wheeeee!\n\n1.1.1.1 The weather is lovely today in Ohio… very sunny\n\n1.1.1.1.1 It’s a nice 64 degrees Fahrenheit\n\n1.1.1.1.1.1 This is the smallest header and least important lol"
+  },
+  {
+    "objectID": "web6_practice.html#footnotes",
+    "href": "web6_practice.html#footnotes",
+    "title": "Website_06_Practice",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nYou can eat healthy or unhealthy in any country of the world.↩︎"
   }
 ]
